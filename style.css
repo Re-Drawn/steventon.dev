@@ -1,8 +1,11 @@
 #particles-js {
 	background: /*#232741*/#141419;
+	height: 100%;
+	width: 100%;
+	position: fixed;
 }
 
-h1, span, p {
+h1, h4, span, p {
 	color: #fff;
 	pointer-events: none;
 }
@@ -11,5 +14,5 @@ h1, span, p {
 
 @keyframes fadeIn {
 	0% { opacity: 0; }
-	70% { opacity: 1; }
+	100% { opacity: 1; }
 }
